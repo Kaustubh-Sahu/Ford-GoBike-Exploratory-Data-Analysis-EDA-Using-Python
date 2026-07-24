@@ -1,1 +1,84 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# Large Dataset Files
+# (Datasets are hosted via Google Drive)
+# ==========================
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.zip
+
+data/processed/*.csv
+data/processed/*.xlsx
+data/processed/*.zip
+
+# Keep README files inside dataset folders
+!data/raw/README.md
+!data/processed/README.md
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+
+# ==========================
+# Python Cache
+# ==========================
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Mac/Linux Metadata
+# ==========================
+.AppleDouble
+.LSOverride
+
+# ==========================
+# Windows Metadata
+# ==========================
+ehthumbs.db
